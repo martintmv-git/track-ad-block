@@ -1,0 +1,13 @@
+{
+    "name": "Track & Adblock",
+    "version": "1.1",
+    "description": "Browser extension that blocks ads and trackers while browsing the web.",
+    "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
+    "background": {
+        "scripts": ["adblock.js"]
+    },
+    "icons": {
+        "128": "icons/icon.png"
+    },
+    "manifest_version": 2
+}
